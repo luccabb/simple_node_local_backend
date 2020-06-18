@@ -68,7 +68,6 @@ app.post("/repositories/:id/like", (request, response) => {
           error: 'Project not found'
       })
   }
-  
 
   repositories[repositoryIndex]['likes'] = repositories[repositoryIndex]['likes'] += 1
 
